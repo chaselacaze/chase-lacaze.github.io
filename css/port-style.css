@@ -2,15 +2,15 @@ html{
     scroll-behavior: smooth;
 }
 html, body {
-    overflow-x: hidden;
     position: relative;
+    overflow-x: hidden;
 }
 body{
     color: #bfc0c0;
     background-image: url(../media/deadpool.jpg);
     background-size: cover;
-    height: 100%;
     background-attachment: fixed;
+    height: 100%;
     background-repeat: no-repeat;
     font-family: 'Lustria', serif;
 }
@@ -23,54 +23,54 @@ body{
     height: 250px;
     width:100%;
     top:-250px;
-    border-bottom: 2px solid #F47920;
-    color: #F47920;
-    text-align: center;
-    background-color: #2d363b;
     z-index: 1;
+    border-bottom: 2px solid #F47920;
+    text-align: center;
     transition: all .2s linear 0s;
+    background-color: #2d363b;
+    color: #F47920;
 }
 .expanded{
     position: fixed;
     top:0;
 }
 .droparrow{
-    background-color: #f2edea61;
-    width: 50px;
+    position: relative;
     display: inline-block;
+    top: -10px;
+    width: 50px;
     border-radius: 0px 0px 10px 10px;
     padding: 40px 10px 0px 10px;
-    top: -10px;
-    position: relative;
     color: #000;
+    background-color: #f2edea61;
 }
 .phone-nav ul{
      padding: initial;
      list-style: none;
-     font-size: 26px;
-     text-align: left;
+     padding-left: 20px;
      line-height: 2.35;
      text-transform: capitalize;
-     padding-left: 20px;
+     font-size: 26px;
+     text-align: left;
 }
 .dropcontent li:last-child{
     border-bottom: none;
 }
 .dropcontent li{
-    border-bottom: #f1ebe74d solid 2px;
     margin-right: 4%;
+    border-bottom: #f1ebe74d solid 2px;
 }
 .dropcontent a{
     color: #F47920;
 }
 .wrapper1{
-    top: 0; left: 0;
-    width:100%;
     position: fixed;
     z-index: 5;
+    top: 0; left: 0;
+    width:100%;
+    padding-top: 10px;
     background-color: #2d363b;
     border-bottom:2px solid #f47920;
-    padding-top: 10px;
     height: 38px;
     box-shadow: 1px 15px 19px #000;
 }
@@ -82,10 +82,10 @@ body{
     margin-right: 10px;
 }
 .wrapper1 a{
-    color:#f47920;
-    font-size: 1.4vw;
     text-decoration: none;
     text-transform: capitalize;
+    color:#f47920;
+    font-size: 1.4vw;
 }
 .wrapper1 a:hover{
     text-shadow: 0px 0px 6px #f47920;
@@ -96,18 +96,18 @@ body{
     }
 }
 .wrapper2{
+    overflow: hidden;
     padding-top: 100px;
+    text-shadow: #000 1px 1px;
     text-align: center;
     color:#FF9F1C;
-    text-shadow: black 1px 1px;
-    overflow: hidden;
 }
 .hero{
     width:200px;
     height:200px;
-    border-radius:50%;
     left:0;
     right:0;
+    border-radius:50%;
     margin-bottom: 10px;
     box-shadow: #000 0px 10px 11px 4px;
     animation:hero-fade 1s;
@@ -134,10 +134,9 @@ body{
     /* background-color: #F47920; */
     position: relative;
     height: 150px;
-    text-align: center;
     padding-top: 90px;
+    text-align: center;
     animation: wrapper3 1s 1s forwards;
-    transform: translateX(100%)
 }
 .aboutloc{
     position: absolute;
@@ -157,19 +156,18 @@ body{
     top: 0;
     height: 20px;
     width: 100%;
-    background-color: gray;
 }
 .overlay{
     position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+    height: 97%;
+    width: 97%;
     padding:15px;
     font-size: 12px;
     background-color: #2d363b;
     border: solid 2px #F47920;
     box-shadow: 0px 13px 10px 10px #000;
-    margin-top: 40px;
-    height: 97%;
-    width: 97%;
-    overflow: hidden;
     animation: overt 3s 1;
 }
 .wrapper4 .overlay:hover{
@@ -198,14 +196,14 @@ body{
 }
 .view-code a{
     position: absolute;
-    color: honeydew;
-    background-color: #f479206b;
     height: 42px;
     width: 100%;
     bottom: 15px;
     padding-top: 10px;
     text-align: center;
     text-decoration: none;
+    color: honeydew;
+    background-color: #f479206b;
 }
 @media (min-width:375px){
     .view-code a{
@@ -232,11 +230,11 @@ body{
     text-transform: capitalize;
 }
 .wrapper5{
-    background-color:  #2d363b;
     height: 150px;
     padding-top: 35px;
-    text-align: center;
     border-top: 5px solid #f47920;
+    text-align: center;
+    background-color:  #2d363b;
 }
 .wrapper5 ul{
     padding-left:0;
@@ -244,11 +242,11 @@ body{
 }
 .wrapper5 li{
     display: inline-block;
-    background-color: #2d363b;
     border-radius: 50%;
     box-shadow: 0px 2px 15px black;
     list-style: none;
     border: 2px solid #f47920;
+    background-color: #2d363b;
 }
 .wrapper5 li:active{
     transform: translateY(5px);
@@ -275,9 +273,9 @@ body{
     }
 }
 .linkedin a{
+    border:none;
     font-size: 24px;
     color: #F47920;
-    border:none;
 }
 .linkedin{
     padding:27px 32px;
@@ -288,9 +286,9 @@ body{
     }
 }
 .email i{
-    font-size: 24px;
-    color: #f47920;
     border:none;
+    color: #f47920;
+    font-size: 24px;
 }
 .email{
     padding: 32px;
@@ -301,12 +299,12 @@ body{
     }
 }
 .about{
-    background:linear-gradient(#cf6519, #f47920,#cf6519);
     box-shadow: 0px 14px 17px black;
+    background:linear-gradient(#cf6519, #f47920,#cf6519);
 }
 #myemail{
-    border-radius: 0px;
     position: absolute;
+    border-radius: 0px;
     bottom: 44%;
     z-index: 1;
     right: 20%;
