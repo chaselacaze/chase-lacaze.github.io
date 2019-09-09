@@ -1,0 +1,169 @@
+.wrapper{
+    font-family: sans-serif;
+    height: 0 auto;
+    width: 960px;
+    text-transform: uppercase;
+    background-color:rgba(243, 244, 246, 1)
+
+}
+.clearfloat{
+    clear: both;
+}
+.topbar {
+    width: 100%;
+    left: 0 auto; right: 0 auto;
+    background-color:rgb(20, 20, 83) ;
+    height: 20 px;
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 15px
+
+}
+.support{
+    border-right: solid 2px;
+    border-color:  #6360e4;
+}
+.faqs{
+    border-right: solid 2px;
+    border-color:  #6360e4;
+}
+.sitemap{
+    border-right: solid 2px;
+    border-color:  #6360e4;
+}
+.navbar1 {
+    float:right;
+    position: relative;
+    margin-right: 0;
+    margin-top: -15px
+}
+ul{ list-style: none;
+    
+}
+.topbar li{
+    display: inline;
+    margin-right: 5px
+}
+.topbar a{
+    color: #7776c0;
+    right: 15px;
+    padding: 5px
+}
+a{ text-decoration: none;
+    list-style-type: none;
+}
+.topbar2{
+    /* background-color: white; */
+    position: relative
+}
+.topbar2 li{
+    display:inline;
+    float:right;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+.topbar2{
+    height:100px;
+    padding: 15px
+}
+.topbar2 li a{ 
+    color: aliceblue;
+    background-color:rgb(2, 2, 71);
+    border-color:rgb(2, 2, 71);
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 4px
+}
+.t2ul{
+    margin-top: -25px
+}
+.topbar2 li a:hover{
+    background-color: orange
+}
+.thinkbig{
+    position: relative;
+}
+.tb{
+    font-size: 80px;
+    margin-top: 80px
+}
+.wtw{
+    font-size: 30px;
+    margin-top: -100px
+}
+.detroix{
+    margin-top: 10px
+}
+.thinkbigc a{
+    color: aliceblue;
+    background-color:rgb(2, 2, 71);
+    border-color:rgb(2, 2, 71) ;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-left: 60px;
+    position: absolute
+}
+.thinkbig a:hover{
+    background-color: orange
+}
+.thinkbig{
+    position: relative;
+    border-radius: ;
+    margin-bottom: 180px
+}
+img{
+    border-radius: 10px
+}
+.thinkbigc{
+    position:relative;
+    top: -224px;
+    text-transform: uppercase;
+}
+.sss{
+    width: 960px;
+    position: relative;
+    margin-top: -150px;
+}
+.content{
+    float: left;
+    text-align: center;
+    height: 350px
+    
+}
+.sss img{
+    border-radius: 10px
+}
+.content a{
+    color: aliceblue;
+    background-color:rgb(2, 2, 71);
+    border-color:rgb(2, 2, 71);
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+.content a:hover{
+    background-color: orange
+}
+.smart{
+    
+    border-top: solid 2px;
+    border-right: solid 2px;
+    border-color: #e6e3e3;
+    width: 320px
+}
+.strong{
+    border-top:solid 2px;
+    border-right: solid 2px;
+    border-color: #e6e3e3;
+    width: 320px
+}
+.stable{
+    border-top: solid 2px;;
+    border-color: #e6e3e3;
+    width: 310px
+}

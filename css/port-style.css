@@ -1,0 +1,339 @@
+html{
+    scroll-behavior: smooth;
+}
+html, body {
+    overflow-x: hidden;
+    position: relative;
+}
+body{
+    color: #bfc0c0;
+    background-image: url(../media/deadpool.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Lustria', serif;
+}
+.homeloc{
+    position: absolute;
+    top: -40px;
+}
+.phone-nav{
+    position: fixed;
+    height: 250px;
+    width:100%;
+    top:-250px;
+    border-bottom: 2px solid #F47920;
+    color: #F47920;
+    text-align: center;
+    background-color: #2d363b;
+    z-index: 1;
+    transition: all .2s linear 0s;
+}
+.expanded{
+    position: fixed;
+    top:0;
+}
+.droparrow{
+    background-color: #f2edea61;
+    width: 50px;
+    display: inline-block;
+    border-radius: 0px 0px 10px 10px;
+    padding: 40px 10px 0px 10px;
+    top: -10px;
+    position: relative;
+    color: #000;
+}
+.phone-nav ul{
+     padding: initial;
+     list-style: none;
+     font-size: 26px;
+     text-align: left;
+     line-height: 2.35;
+     text-transform: capitalize;
+     padding-left: 20px;
+}
+.dropcontent li:last-child{
+    border-bottom: none;
+}
+.dropcontent li{
+    border-bottom: #f1ebe74d solid 2px;
+    margin-right: 4%;
+}
+.dropcontent a{
+    color: #F47920;
+}
+.wrapper1{
+    top: 0; left: 0;
+    width:100%;
+    position: fixed;
+    z-index: 5;
+    background-color: #2d363b;
+    border-bottom:2px solid #f47920;
+    padding-top: 10px;
+    height: 38px;
+    box-shadow: 1px 15px 19px #000;
+}
+.wrapper1 ul{
+    text-align: center;
+}
+.wrapper1 li{
+    display: inline;
+    margin-right: 10px;
+}
+.wrapper1 a{
+    color:#f47920;
+    font-size: 1.4vw;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.wrapper1 a:hover{
+    text-shadow: 0px 0px 6px #f47920;
+}
+@media (max-width:424px){
+    .wrapper1 a{
+        font-size: 11px;
+    }
+}
+.wrapper2{
+    padding-top: 100px;
+    text-align: center;
+    color:#FF9F1C;
+    text-shadow: black 1px 1px;
+    overflow: hidden;
+}
+.hero{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    left:0;
+    right:0;
+    margin-bottom: 10px;
+    box-shadow: #000 0px 10px 11px 4px;
+    animation:hero-fade 1s;
+    transform: scale(1.2)
+}
+@keyframes hero-fade{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity:1;
+        transform: scale(1.2);
+    }
+}
+.myintro{
+    font-size:4.5vw;
+}
+.wid{
+    font-size: 3vw;
+    border-bottom: 3px solid #F47920;
+}
+.wrapper3{
+    /* background-color: #F47920; */
+    position: relative;
+    height: 150px;
+    text-align: center;
+    padding-top: 90px;
+    animation: wrapper3 1s 1s forwards;
+    transform: translateX(100%)
+}
+.aboutloc{
+    position: absolute;
+    top: 20px;
+}
+@keyframes wrapper3{
+    to {
+        transform: translateX(0);
+    }
+}
+.wrapper4{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.bar{
+    position: relative;
+    top: 0;
+    height: 20px;
+    width: 100%;
+    background-color: gray;
+}
+.overlay{
+    position: relative;
+    padding:15px;
+    font-size: 12px;
+    background-color: #2d363b;
+    border: solid 2px #F47920;
+    box-shadow: 0px 13px 10px 10px #000;
+    margin-top: 40px;
+    height: 97%;
+    width: 97%;
+    overflow: hidden;
+    animation: overt 3s 1;
+}
+.wrapper4 .overlay:hover{
+    box-shadow: 0px 0px 10px 3px #f47920;
+    animation:imgbounce 0.2s infinite;
+}
+.wrapper4 h2{
+    
+    border-bottom: #bcbebe solid 2px;
+    text-transform: capitalize;
+
+}
+@keyframes imgbounce{
+    0%{
+        transform: rotate(-0.2deg) scale(1.125);
+        opacity: 1;
+    }
+    50%{
+        transform: rotate(0.2deg) scale(1.125);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(-0.2deg) scale(1.125);
+        opacity: 1;
+    }
+}
+.view-code a{
+    position: absolute;
+    color: honeydew;
+    background-color: #f479206b;
+    height: 42px;
+    width: 100%;
+    bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+@media (min-width:375px){
+    .view-code a{
+        width: 91%;
+    }
+}
+@media (min-width:768px){
+    .view-code a{
+        width:85.5%;
+    }
+}
+ @media (min-width:1024px){
+    .view-code a{
+        width:89.5%;
+    }
+}
+@media(min-width:1440px){
+    .view-code a{
+        width: 91.5%;
+    }
+}
+.project-name{
+    text-align: center;
+    text-transform: capitalize;
+}
+.wrapper5{
+    background-color:  #2d363b;
+    height: 150px;
+    padding-top: 35px;
+    text-align: center;
+    border-top: 5px solid #f47920;
+}
+.wrapper5 ul{
+    padding-left:0;
+    padding-right:0;
+}
+.wrapper5 li{
+    display: inline-block;
+    background-color: #2d363b;
+    border-radius: 50%;
+    box-shadow: 0px 2px 15px black;
+    list-style: none;
+    border: 2px solid #f47920;
+}
+.wrapper5 li:active{
+    transform: translateY(5px);
+    box-shadow: 0 10px #fff;
+}
+.wrapper5 li:hover{
+    box-shadow: 0px 2px 15px #f47920;
+    color: #F47920;
+    list-style: none;
+
+}
+.github a{
+    font-size: 24px;
+    color: #f47920;
+    border:none;
+}
+.github{
+    padding: 27px 30px;
+    margin: 0px 15%;
+}
+@media (max-width:767px){
+    .github{
+        padding:11px 14px;
+    }
+}
+.linkedin a{
+    font-size: 24px;
+    color: #F47920;
+    border:none;
+}
+.linkedin{
+    padding:27px 32px;
+}
+@media (max-width:767px){
+    .linkedin{
+        padding:11px 14px;
+    }
+}
+.email i{
+    font-size: 24px;
+    color: #f47920;
+    border:none;
+}
+.email{
+    padding: 32px;
+}
+@media (max-width:767px){
+    .email{
+        padding:14px;
+    }
+}
+.about{
+    background:linear-gradient(#cf6519, #f47920,#cf6519);
+    box-shadow: 0px 14px 17px black;
+}
+#myemail{
+    border-radius: 0px;
+    position: absolute;
+    bottom: 44%;
+    z-index: 1;
+    right: 20%;
+    display: none;
+}
+@media (min-width:375px){
+    #myemail{
+        bottom:125%;
+        right:30%;
+    }
+}
+@media (min-width:768px){
+    #myemail{
+        bottom:115%;
+        right:38%;
+    }
+}
+@media (min-width:1024px){
+    #myemail{
+        bottom:115%;
+        right:40.5%;
+    }
+}
+@media (min-width:1440px){
+    #myemail{
+        bottom:110%;
+        right:39.5%;
+        font-size: 18px;
+    }
+}
