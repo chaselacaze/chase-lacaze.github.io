@@ -125,6 +125,12 @@ body{
 }
 .myintro{
     font-size:4.5vw;
+    text-transform: capitalize;
+}
+@media (min-width:767px){
+    .myintro{
+        font-size: 3.5vw;
+    }
 }
 .wid{
     font-size: 3vw;
