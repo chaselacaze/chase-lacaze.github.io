@@ -12,5 +12,12 @@ $(document).ready(function(){
        function fade_out() {
             $("#myemail").fadeOut();
        }
-    });
+    }); 
 });
+// $(document).ready(function (){
+//     $('#proceed').click(function(){
+//         // do stuff
+//         console.log('here');
+//         $('.phone-nav').toggleClass('expanded');
+//     });
+// });
